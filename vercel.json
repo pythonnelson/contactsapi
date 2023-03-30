@@ -1,0 +1,14 @@
+{
+    "builds":[
+        {
+            "src":"contactsapi.wsgi",
+            "use":"@vercel/python"
+        }
+    ],
+    "routes":[
+        {
+            "src": "/(.*)",
+            "dest": "contactsapi.wsgi"
+        }
+    ]
+}
