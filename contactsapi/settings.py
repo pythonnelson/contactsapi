@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles', # also required for serving swagger ui's css/js files
     'rest_framework', 
     'drf_yasg',
+    'corsheaders',
 
     'authentication',
     'contacts',
@@ -72,6 +73,7 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
@@ -166,5 +168,11 @@ load_dotenv()
 
 #JWT SECRET KEY
 JWT_SECRET_KEY = config('JWT_SECRET_KEY')
+
+#========= CORS ========
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:8000",
+    "http://127.0.0.1:8000",
+]
 
 django_heroku.settings(locals())
