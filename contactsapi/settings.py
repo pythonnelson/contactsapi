@@ -38,11 +38,24 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
-    'rest_framework',
+    'django.contrib.staticfiles', # also required for serving swagger ui's css/js files
+    'rest_framework', 
+    'drf_yasg',
 
     'authentication',
+    'contacts',
 ]
+
+# =========== Swagger Settings ==============
+SWAGGER_SETTINGS={
+    'SECURITY_DEFINITIONS':{
+        "Auth Token eg [Bearer] (JWT)": {
+            "type": "apiKey",
+            "name": "Authorization",
+            "in": "header"
+        }  
+    }
+}
 
 #============= Rest Framework Configuration==========
 REST_FRAMEWORK={
@@ -139,4 +152,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 load_dotenv()
 
 #JWT SECRET KEY
-JWT_SECRET_KEY=os.environ.get('JWT_SECRET_KEY')
+# JWT_SECRET_KEY=os.environ.get('JWT_SECRET_KEY')
+JWT_SECRET_KEY='JAKSHJFKAHSDICIENCKEJNCJKAHHKJAHFIUEFSJDFAHSDFAJHFAJK'
