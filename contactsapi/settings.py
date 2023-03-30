@@ -14,6 +14,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 import os
 from decouple import config, Csv
+import django_heroku
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -156,4 +157,5 @@ load_dotenv()
 
 #JWT SECRET KEY
 JWT_SECRET_KEY = config('JWT_SECRET_KEY')
-# JWT_SECRET_KEY='JAKSHJFKAHSDICIENCKEJNCJKAHHKJAHFIUEFSJDFAHSDFAJHFAJK'
+
+django_heroku.settings(locals())
