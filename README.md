@@ -1,12 +1,12 @@
 # contactsapi
 Django Rest Framework Contacts API
 
-https://www.dropbox.com/s/b1729x7xr78b4xf/1.png?dl=0
-https://www.dropbox.com/s/3xqji3ltgjw487s/2.png?dl=0
-https://www.dropbox.com/s/1d9uhbxcebjp7gl/3.png?dl=0
-https://www.dropbox.com/s/4bwx72zi68mrxi3/4.png?dl=0
-https://www.dropbox.com/s/5viufghicl3xvbg/5.png?dl=0
-https://www.dropbox.com/s/fu0fmgzhpgrh10u/6.png?dl=0
-https://www.dropbox.com/s/0zj79ql9kwba123/7.png?dl=0
-https://www.dropbox.com/s/tobutrfoy0i7aep/8.png?dl=0
-https://www.dropbox.com/s/wjc7sz7ak4y4qpv/9.png?dl=0
+![1](https://user-images.githubusercontent.com/77267910/230496680-51d1e610-7636-4c9f-b844-5f7942558ca9.png)
+![2](https://user-images.githubusercontent.com/77267910/230496730-fb35eb2f-576f-4bd5-989e-3c12ae045665.png)
+![3](https://user-images.githubusercontent.com/77267910/230496745-3486d47a-e090-4013-baff-6ee4159f1567.png)
+![4](https://user-images.githubusercontent.com/77267910/230496754-c658f2ae-5b3b-4082-9ce7-598809a11105.png)
+![5](https://user-images.githubusercontent.com/77267910/230497494-16c8ea3b-1dae-476f-8b4c-a4a172bfa476.png)
+![6](https://user-images.githubusercontent.com/77267910/230497505-8eef4fa0-f544-4906-af0f-c2d26371e811.png)
+![7](https://user-images.githubusercontent.com/77267910/230497513-8847f424-af2d-4670-98d5-c6f7c3c297b8.png)
+![8](https://user-images.githubusercontent.com/77267910/230497548-ded855ce-9b10-4ec0-819b-e5ff417bf022.png)
+![9](https://user-images.githubusercontent.com/77267910/230497554-5f07de84-7898-40ee-9103-1ffcf84f31a5.png)
